@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to left, #74ebd5, #acb6e5);
+}
+
+.form {
+    border: 1px solid #fff;
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    padding: 12px;
+    border-radius: 26px;
+    box-shadow: 0px 20px 60px rgba(15, 15, 15, 0.12);
+}
+
+.form__input {
+    width: 75%;
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    border: 1px solid gainsboro;
+    border-radius: 18px;
+}
+
+.add-btn {
+    width: 44px;
+    height: 44px;
+    outline: none;
+    border: 1px dashed #fff;
+    border-radius: 20%;
+    background-color:linear-gradient(to left, #c9d6ff, #e6e6e6);
+    color: #222;
+    cursor: pointer;
+}
+
+.list {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    width: 85%;
+    border-radius: 23px;
+    padding: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0px 20px 60px rgba(15, 15, 15, 0.12);
+    margin-bottom: 3px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.js-checked {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.label{
+    margin-right: 155px;
+}
+
+.edit-btn {
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    /* margin-left: 170px; */
+    cursor: pointer;
+}
+
+.delete-btn {
+    border: none;
+    background-color: red;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.edit-btn:hover {
+    background-color: #acb6e5;
+    color: #fff;
+}
